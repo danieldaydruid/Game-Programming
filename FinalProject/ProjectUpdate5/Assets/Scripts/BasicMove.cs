@@ -20,7 +20,7 @@ public class BasicAI : MonoBehaviour {
      
      
      
-     // Update is called once per frame      
+     // Update is called once per frame
      void FixedUpdate () {
          Vector3 playerPosition = new Vector3 (target.position.x, 0.0f, 0.0f);
          GetComponent<Rigidbody> ().velocity = playerPosition * moveSpeed; 
